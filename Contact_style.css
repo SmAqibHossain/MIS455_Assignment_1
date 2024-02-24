@@ -1,0 +1,59 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  margin: 0;
+  background-color: #f0f8ff;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+.parent {
+  /* I have used displat grid here */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  padding: 50px;
+}
+.child {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#picture {
+  border: 5px solid rgb(173, 163, 163);
+  border-radius: 5%;
+  padding: 0;
+
+  max-width: 100%;
+  height: 100%;
+}
